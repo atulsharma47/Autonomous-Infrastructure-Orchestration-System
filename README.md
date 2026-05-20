@@ -1,111 +1,111 @@
 # Autonomous Infrastructure Orchestration System
 
-Advanced AI-driven infrastructure monitoring and orchestration platform featuring real-time telemetry visualization, autonomous incident response, intelligent threat analysis, and live infrastructure simulation.
+Advanced AI-driven infrastructure monitoring platform featuring real-time telemetry, autonomous orchestration, intelligent incident response, and live infrastructure visualization.
 
 ---
 
 ## Overview
 
-The Autonomous Infrastructure Orchestration System is a full-stack realtime infrastructure intelligence platform built to simulate modern AI-assisted cloud operations and distributed service monitoring environments.
+Autonomous Infrastructure Orchestration System is a modern full-stack infrastructure intelligence platform designed to simulate how next-generation AI systems monitor, analyze, and stabilize distributed services in real time.
 
-The platform combines:
+The platform includes:
 
-- Realtime telemetry processing
-- Infrastructure dependency visualization
-- Autonomous incident orchestration
-- AI-inspired monitoring interfaces
-- WebSocket-powered synchronization
-- Live threat simulation
-- Advanced animated infrastructure visualization
+- Real-time service monitoring
+- AI-driven incident orchestration
+- Infrastructure topology visualization
+- Live analytics dashboard
+- Autonomous threat response simulation
+- Intelligent incident tracking
+- Interactive AI core visualization
+- Authentication system
+- Backend + frontend architecture
 
 ---
 
-## Core Features
+## Features
 
-### Realtime Infrastructure Monitoring
-- Live service telemetry updates
-- Dynamic latency and traffic tracking
-- Infrastructure dependency mapping
-- Infrastructure health visualization
+### AI Infrastructure Dashboard
+- Live telemetry metrics
+- Autonomous infrastructure entity
+- Real-time traffic and latency monitoring
+- Animated AI orchestration core
 
-### Autonomous Incident Response
-- Automatic threat escalation
-- Intelligent service isolation
-- Dependency-aware incident propagation
-- Live incident command center
+### Infrastructure Monitoring
+- Service dependency graph
+- Infrastructure topology visualization
+- Live node status monitoring
+- Critical service detection
 
-### AI Intelligence Layer
-- Threat analysis engine
+### Incident Command Center
+- AI-generated incident analysis
 - Infrastructure risk evaluation
-- Autonomous orchestration simulation
-- Live infrastructure state transitions
+- Autonomous response logs
+- Incident lifecycle management
 
-### Advanced Interactive UI
-- Animated AI sentinel core
-- Cyberpunk-inspired dashboard
-- Dynamic telemetry visuals
-- Infrastructure graph rendering
-- Motion-driven orchestration components
+### Analytics System
+- Real-time infrastructure analytics
+- Traffic visualization
+- Service health tracking
+- Performance monitoring
 
-### Realtime Communication
-- Socket.IO-powered synchronization
-- Live infrastructure updates
-- Distributed event simulation
-- Realtime alert propagation
+### Simulation Engine
+- Autonomous threat simulation
+- Infrastructure instability testing
+- Recovery orchestration simulation
+
+### Authentication
+- Login/Register system
+- Protected infrastructure session flow
 
 ---
 
-## Technology Stack
+## Tech Stack
 
 ### Frontend
 - React.js
 - Vite
 - Tailwind CSS
 - Framer Motion
-- Socket.IO Client
+- Recharts
 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB
 - Socket.IO
 
 ---
 
-## System Modules
+## Project Structure
 
-### Overview Dashboard
-- AI orchestration interface
-- Infrastructure intelligence
-- Threat overview
-- Realtime telemetry
-
-### Infrastructure Network
-- Dependency visualization
-- Critical node tracking
-- Infrastructure topology rendering
-
-### Incident Command Center
-- Threat monitoring
-- Incident escalation
-- Autonomous response visualization
-
-### Analytics Layer
-- Traffic telemetry
-- Latency analysis
-- Infrastructure metrics
-
-### Simulation Engine
-- Infrastructure instability simulation
-- Service degradation orchestration
-- Autonomous recovery behaviors
+```bash
+Autonomous-Infrastructure-Orchestration-System
+│
+├── frontend
+│   ├── public
+│   │   └── screenshots
+│   ├── src
+│   │   ├── ai
+│   │   ├── components
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── services
+│   │   └── widgets
+│   │
+│   └── package.json
+│
+├── backend
+│   ├── src
+│   └── package.json
+│
+└── README.md
+```
 
 ---
 
 ## Screenshots
 
 ### Dashboard
-![Dashboard](./frontend/public/screenshots/dashboard (3).png)
+![Dashboard](./frontend/public/screenshots/dashboard3.png)
 
 ### Infrastructure
 ![Infrastructure](./frontend/public/screenshots/infrastructure.png)
@@ -124,34 +124,18 @@ The platform combines:
 
 ---
 
-## Project Structure
-
-```bash
-Autonomous-Infrastructure-Orchestration-System
-│
-├── backend
-│
-├── frontend
-│   ├── public
-│   │   └── screenshots
-│   └── src
-│       ├── components
-│       ├── context
-│       ├── pages
-│       ├── services
-│       └── auth
-│
-└── README.md
-```
-
----
-
 ## Installation
 
-### Clone Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/atulsharma47/Autonomous-Infrastructure-Orchestration-System.git
+```
+
+Move into project directory:
+
+```bash
+cd Autonomous-Infrastructure-Orchestration-System
 ```
 
 ---
@@ -165,6 +149,7 @@ npm run dev
 ```
 
 Frontend runs on:
+
 ```bash
 http://localhost:5173
 ```
@@ -173,79 +158,76 @@ http://localhost:5173
 
 ## Backend Setup
 
+Open another terminal:
+
 ```bash
 cd backend
 npm install
-npm run dev
+npm start
 ```
 
 Backend runs on:
+
 ```bash
 http://localhost:5000
 ```
 
 ---
 
-## WebSocket Architecture
+## Current Intelligence Capabilities
 
-The platform uses Socket.IO to maintain realtime synchronization between frontend infrastructure visualization and backend orchestration systems.
-
-Key responsibilities include:
-- Live telemetry updates
-- Incident propagation
-- Infrastructure synchronization
-- Threat broadcasts
-- Autonomous orchestration events
-
----
-
-## Current Capabilities
-
-- Realtime infrastructure telemetry
-- Autonomous incident simulation
-- AI orchestration interface
-- Threat intelligence visualization
-- Service dependency monitoring
-- Live infrastructure graph rendering
-- WebSocket synchronization
+- Autonomous service health evaluation
+- Infrastructure risk calculation
+- Live telemetry synchronization
+- AI incident reasoning
+- Service dependency tracking
+- Threat state orchestration
+- Infrastructure stabilization simulation
 
 ---
 
-## Planned Enhancements
+## Future Enhancements
 
-### Intelligence Layer Expansion
-- Predictive threat analysis
-- ML-based anomaly detection
-- AI recovery recommendations
-- Adaptive orchestration strategies
+- Real AI anomaly detection
+- Machine learning threat prediction
+- Kubernetes infrastructure integration
+- Docker deployment pipeline
+- Voice-controlled infrastructure orchestration
+- AI-generated infrastructure recovery plans
+- WebSocket distributed telemetry streaming
+- Cloud deployment architecture
+- Role-based authentication
+- Persistent database integration
 
-### Infrastructure Enhancements
-- Kubernetes cluster simulation
-- Multi-region orchestration
-- Distributed load balancing simulation
+---
 
-### Security Enhancements
-- JWT authentication improvements
-- Role-based access control
-- Secure websocket authorization
+## Security Notes
 
-### Deployment Roadmap
-- Docker containerization
-- CI/CD pipeline integration
-- Cloud deployment
-- Production monitoring stack
+The repository ignores:
+
+- `.env`
+- `node_modules`
+- build/dist files
+- local configuration files
+
+Sensitive environment variables are never committed.
 
 ---
 
 ## Author
 
-Atul Sharma
+### Atul Sharma
+
+Backend-focused developer building scalable systems, AI-driven infrastructure platforms, and real-time orchestration applications.
 
 GitHub:
 https://github.com/atulsharma47
+
+LinkedIn:
+https://www.linkedin.com/in/atul-sharma-ab03882b6/
 
 ---
 
 ## License
 
-This project is intended for educational, research, and portfolio purposes.
+This project is currently intended for educational, portfolio, and research purposes.
