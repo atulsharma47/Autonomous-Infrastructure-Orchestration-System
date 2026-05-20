@@ -85,10 +85,15 @@ Autonomous-Infrastructure-Orchestration-System
 │   │   └── screenshots
 │   ├── src
 │   │   ├── ai
+│   │   ├── animations
+│   │   ├── assets
+│   │   ├── auth
 │   │   ├── components
 │   │   ├── context
+│   │   ├── layouts
 │   │   ├── pages
 │   │   ├── services
+│   │   ├── styles
 │   │   └── widgets
 │   │
 │   └── package.json
@@ -97,6 +102,7 @@ Autonomous-Infrastructure-Orchestration-System
 │   ├── src
 │   └── package.json
 │
+├── .gitignore
 └── README.md
 ```
 
@@ -105,7 +111,7 @@ Autonomous-Infrastructure-Orchestration-System
 ## Screenshots
 
 ### Dashboard
-![Dashboard](frontend/public/screenshots/dashboard.png)
+![Dashboard](./frontend/public/screenshots/dashboard%20(3).png)
 
 ### Infrastructure
 ![Infrastructure](./frontend/public/screenshots/infrastructure.png)
