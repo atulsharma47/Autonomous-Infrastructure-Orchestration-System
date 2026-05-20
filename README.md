@@ -105,7 +105,7 @@ Autonomous-Infrastructure-Orchestration-System
 ## Screenshots
 
 ### Dashboard
-![Dashboard](./frontend/public/screenshots/dashboard(3).png)
+![Dashboard](./frontend/public/screenshots/dashboard.png)
 
 ### Infrastructure
 ![Infrastructure](./frontend/public/screenshots/infrastructure.png)
