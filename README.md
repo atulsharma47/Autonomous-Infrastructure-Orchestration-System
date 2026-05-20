@@ -1,12 +1,12 @@
 # Autonomous Infrastructure Orchestration System
 
-Advanced AI-driven infrastructure monitoring and orchestration platform featuring real-time telemetry visualization, autonomous incident response, intelligent threat analysis, and live orchestration systems.
+Advanced AI-driven infrastructure monitoring and orchestration platform featuring real-time telemetry visualization, autonomous incident response, intelligent threat analysis, and live infrastructure simulation.
 
 ---
 
-# Overview
+## Overview
 
-The Autonomous Infrastructure Orchestration System is a full-stack realtime infrastructure intelligence platform designed to simulate modern AI-assisted cloud operations and distributed service monitoring.
+The Autonomous Infrastructure Orchestration System is a full-stack realtime infrastructure intelligence platform built to simulate modern AI-assisted cloud operations and distributed service monitoring environments.
 
 The platform combines:
 
@@ -14,205 +14,238 @@ The platform combines:
 - Infrastructure dependency visualization
 - Autonomous incident orchestration
 - AI-inspired monitoring interfaces
+- WebSocket-powered synchronization
 - Live threat simulation
-- WebSocket-driven state synchronization
-- Advanced animated system intelligence UI
-
-The system was built to emulate the operational feel of modern cloud infrastructure control centers and cyber-defense monitoring environments.
+- Advanced animated infrastructure visualization
 
 ---
 
-# Core Features
+## Core Features
 
-## Realtime Infrastructure Monitoring
-
+### Realtime Infrastructure Monitoring
 - Live service telemetry updates
-- Dynamic latency tracking
-- Traffic monitoring
-- Service dependency mapping
+- Dynamic latency and traffic tracking
+- Infrastructure dependency mapping
 - Infrastructure health visualization
 
----
-
-## Autonomous Incident Response
-
-- Automatic threat detection
-- Critical service escalation
+### Autonomous Incident Response
+- Automatic threat escalation
 - Intelligent service isolation
 - Dependency-aware incident propagation
 - Live incident command center
 
----
-
-## AI Intelligence Layer
-
-- AI orchestration engine simulation
-- Threat analysis system
+### AI Intelligence Layer
+- Threat analysis engine
 - Infrastructure risk evaluation
-- Live orchestration telemetry
-- Autonomous infrastructure state transitions
+- Autonomous orchestration simulation
+- Live infrastructure state transitions
 
----
-
-## Advanced Interactive UI
-
+### Advanced Interactive UI
 - Animated AI sentinel core
-- Cyberpunk-inspired infrastructure interface
-- Realtime system activity animations
+- Cyberpunk-inspired dashboard
 - Dynamic telemetry visuals
 - Infrastructure graph rendering
 - Motion-driven orchestration components
 
----
-
-## Realtime Communication
-
-- WebSocket-powered synchronization
-- Live infrastructure state updates
+### Realtime Communication
+- Socket.IO-powered synchronization
+- Live infrastructure updates
 - Distributed event simulation
 - Realtime alert propagation
 
 ---
 
-# Technology Stack
+## Technology Stack
 
-## Frontend
-
+### Frontend
 - React.js
 - Vite
 - Tailwind CSS
 - Framer Motion
 - Socket.IO Client
 
----
-
-## Backend
-
+### Backend
 - Node.js
 - Express.js
+- MongoDB
 - Socket.IO
 
 ---
 
-# System Modules
+## System Modules
 
-## Overview Dashboard
-
-Provides centralized infrastructure intelligence including:
-
-- Live telemetry
+### Overview Dashboard
 - AI orchestration interface
-- Service metrics
+- Infrastructure intelligence
 - Threat overview
-- Infrastructure status monitoring
+- Realtime telemetry
 
----
+### Infrastructure Network
+- Dependency visualization
+- Critical node tracking
+- Infrastructure topology rendering
 
-## Infrastructure Network
-
-Visual representation of:
-
-- Service dependencies
-- Critical nodes
-- Live infrastructure state
-- Realtime topology transitions
-
----
-
-## Incident Command Center
-
-Dedicated orchestration interface for:
-
+### Incident Command Center
 - Threat monitoring
 - Incident escalation
-- Critical service tracking
 - Autonomous response visualization
 
----
-
-## Analytics Layer
-
-Displays operational intelligence including:
-
-- Latency analysis
+### Analytics Layer
 - Traffic telemetry
+- Latency analysis
 - Infrastructure metrics
-- Service health distribution
 
----
-
-## Simulation Engine
-
-Realtime simulation environment used to emulate:
-
-- Infrastructure instability
-- Service degradation
-- AI orchestration events
+### Simulation Engine
+- Infrastructure instability simulation
+- Service degradation orchestration
 - Autonomous recovery behaviors
 
 ---
 
-# Screenshots
+## Screenshots
 
-## Dashboard
-
+### Dashboard
 ![Dashboard](./frontend/public/screenshots/dashboard3.png)
 
----
-
-## Infrastructure Network
-
+### Infrastructure
 ![Infrastructure](./frontend/public/screenshots/infrastructure.png)
 
----
-
-## Incident Command Center
-
+### Incidents
 ![Incidents](./frontend/public/screenshots/incidents.png)
 
----
-
-## Analytics
-
+### Analytics
 ![Analytics](./frontend/public/screenshots/analytics.png)
 
----
-
-## Simulation Engine
-
+### Simulation
 ![Simulation](./frontend/public/screenshots/simulation.png)
 
----
-
-## Authentication System
-
-![Register](./frontend/public/screenshots/register.png)
+### Authentication
+![Authentication](./frontend/public/screenshots/register.png)
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```bash
 Autonomous-Infrastructure-Orchestration-System
 │
 ├── backend
-│   ├── src
-│   ├── package.json
-│   └── .env
 │
 ├── frontend
 │   ├── public
 │   │   └── screenshots
-│   ├── src
-│   │   ├── components
-│   │   ├── context
-│   │   ├── pages
-│   │   ├── services
-│   │   ├── layouts
-│   │   ├── widgets
-│   │   └── styles
-│   │
-│   ├── package.json
-│   └── vite.config.js
+│   └── src
+│       ├── components
+│       ├── context
+│       ├── pages
+│       ├── services
+│       └── auth
 │
 └── README.md
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/atulsharma47/Autonomous-Infrastructure-Orchestration-System.git
+```
+
+---
+
+## Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs on:
+```bash
+http://localhost:5173
+```
+
+---
+
+## Backend Setup
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+Backend runs on:
+```bash
+http://localhost:5000
+```
+
+---
+
+## WebSocket Architecture
+
+The platform uses Socket.IO to maintain realtime synchronization between frontend infrastructure visualization and backend orchestration systems.
+
+Key responsibilities include:
+- Live telemetry updates
+- Incident propagation
+- Infrastructure synchronization
+- Threat broadcasts
+- Autonomous orchestration events
+
+---
+
+## Current Capabilities
+
+- Realtime infrastructure telemetry
+- Autonomous incident simulation
+- AI orchestration interface
+- Threat intelligence visualization
+- Service dependency monitoring
+- Live infrastructure graph rendering
+- WebSocket synchronization
+
+---
+
+## Planned Enhancements
+
+### Intelligence Layer Expansion
+- Predictive threat analysis
+- ML-based anomaly detection
+- AI recovery recommendations
+- Adaptive orchestration strategies
+
+### Infrastructure Enhancements
+- Kubernetes cluster simulation
+- Multi-region orchestration
+- Distributed load balancing simulation
+
+### Security Enhancements
+- JWT authentication improvements
+- Role-based access control
+- Secure websocket authorization
+
+### Deployment Roadmap
+- Docker containerization
+- CI/CD pipeline integration
+- Cloud deployment
+- Production monitoring stack
+
+---
+
+## Author
+
+Atul Sharma
+
+GitHub:
+https://github.com/atulsharma47
+
+---
+
+## License
+
+This project is intended for educational, research, and portfolio purposes.
